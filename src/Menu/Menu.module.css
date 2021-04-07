@@ -1,0 +1,21 @@
+.Menu{
+    background-color: rgba(3, 19, 44, 0.959);
+    color: #f2f2f2;
+    min-height: 100vh;
+    padding: 2em 0;
+}
+
+.Menu > ul > li{
+   width: 100%;
+   text-align: center;
+   margin: auto ;
+}
+.Menu > ul > li > a{
+   text-decoration: none;
+}
+
+.Menu > ul > li:hover{
+cursor: pointer;
+transition: all .7s;
+background-color: #a34772;
+}
