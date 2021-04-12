@@ -34,9 +34,9 @@ const ContactPage = props => {
     },[contactData, userKey]);
 
     const updateContacts =  (contacts) => {
-        debugger
+        
         setContacts((prevState) => {
-            debugger
+            
             const newState = [...prevState, contacts];
             return newState;
         });
