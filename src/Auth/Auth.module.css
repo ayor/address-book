@@ -1,0 +1,13 @@
+.AuthForm{
+    transition: all .7s;
+    animation: fade-in .7s ease-out forwards;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

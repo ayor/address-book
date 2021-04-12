@@ -4,7 +4,10 @@
     min-height: 100vh;
     padding: 2em 0;
 }
-
+.Active{
+    background-color: #dc3545;
+    text-decoration: none;
+}
 .Menu > ul > li{
    width: 100%;
    text-align: center;
@@ -17,5 +20,5 @@
 .Menu > ul > li:hover{
 cursor: pointer;
 transition: all .7s;
-background-color: #a34772;
+background-color: #dc3545;
 }

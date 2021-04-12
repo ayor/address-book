@@ -1,14 +1,15 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
-const Nav = props => (<nav className="navbar navbar-expand-lg navbar-light bg-light">
+const Nav = props => (<nav className="navbar navbar-expand-sm navbar-light fixed-top">
 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className="collapse navbar-collapse  font-weight-bold" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                <NavLink className="nav-link text-danger" to="/home">Home <span className="sr-only">(current)</span></NavLink>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
+                <NavLink className="nav-link text-danger" to="/contact">Contacts</NavLink>
             </li>
           
             
