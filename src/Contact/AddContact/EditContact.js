@@ -93,9 +93,9 @@ const EditContact = props => {
 
             <div className="input-group my-2">
                 <div className="input-group-prepend">
-                    <i className="fa fa-phone pt-2 text-muted input-group-text"></i>
+                <div className=" text-muted input-group-text"> +234</div>
                 </div>
-                <input name="phone" type="phone" {...register("phone", { required: true })} value={contactData.phone} className="form-control " onChange={onChangeHandler.bind(this, "phone")} placeholder="phone" />
+                <input name="phone" type="tel" {...register("phone", { required: true })} value={contactData.phone} className="form-control " onChange={onChangeHandler.bind(this, "phone")} placeholder="phone" />
             </div>
             {errors.phone && <span className="text-light">Enter a phone number</span>}
 

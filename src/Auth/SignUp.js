@@ -30,6 +30,17 @@ const SignUp = props => {
 
             <div className="input-group my-2">
                 <div className="input-group-prepend">
+                <div className=" text-muted input-group-text"> +234</div>
+                </div>
+
+                <input name="phone" type="tel" {...register("phone",{
+                    
+                })} className="form-control" placeholder="123489937" />
+            </div>
+            {errors.phone && <span className="text-light">Enter a valid phone number</span>}
+
+            <div className="input-group my-2">
+                <div className="input-group-prepend">
                 <div className=" text-muted input-group-text"> <Emoji label="password" symbol="🔐"/></div>
                 </div>
 
