@@ -1,7 +1,6 @@
 import React from 'react';
 import LapaClasses from './LandingPage.module.css';
 import LoginPage from "../Auth/LoginPage";
-import Nav from '../Navigation/Nav';
 
 const LaPa = props => (<React.Fragment>
     <div className={"row " + LapaClasses.LaPa}>

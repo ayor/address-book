@@ -5,7 +5,6 @@ import {
     Route,
     withRouter
 } from 'react-router-dom';
-import Nav from '../Navigation/Nav';
 import Menu from '../Menu/Menu';
 import Contacts from './Contacts';
 import AddContact from './AddContact/Add-Contact';
@@ -16,7 +15,6 @@ const ContactPage = props => {
     const [contactData, setContactData] = useState(props.user.contacts);
     const [userKey] = useState(props.user.id);
     const [contacts, setContacts] = useState();
-
     useEffect(() => {
         const fectchData = async () => {
             const contactList = [];
